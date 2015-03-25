@@ -1,28 +1,11 @@
-asuswrt-merlin
-==============
+asuswrt-merlin-stable
+=====================
 
-This is an enhanced version of Asuswrt - the firmware used by all recent Asus routers. 
+This is a stable version of asuswrt-merlin, with security vulnerabilities patched via cherry-picks
+from the current official version of asuswrt-merlin. This repo is based on 376.49_5 and is tested
+on the RT-AC66U.  It should build and run on other models but if it breaks you get to keep all the 
+pieces.
 
-The goal of this project is to fix issues and bring some minor functionality adjustments to the 
-original Asus firmware.  While some features do get added, this is not the main focus of this project.  
-It is not meant to replace existing projects such as Tomato or DD-WRT, but rather to offer an alternative 
-for people who prefer the original firmware featureset.
+The official version of asus-wrt can be found here:
 
-At this time, the supported devices are:
-
-- RT-N16
-- RT-AC56U
-- RT-N66U
-- RT-AC66U
-- RT-AC68U
-- RT-AC68P
-- RT-AC87U
-
-NOTE: all the "R" versions (for example RT-N66R) are the same as their 
-"U" counterparts, they are just different packages aimed at large 
-retailers.  The firmware is 100% compatible with both U and R versions 
-of the routers.  Same with the "W" variants that are simply white.
-
-Firmware builds can be downloaded from the official download site:
-
-http://www.lostrealm.ca/asuswrt-merlin/download
+http://www.lostrealm.ca/asuswrt-merlin
